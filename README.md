@@ -1,1 +1,40 @@
-# Oten
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      }
+
+    .page {
+       background-color: white;
+       width: 210mm;
+       height: 297mm;
+       padding: 2rem;
+       
+
+    }
+  </style>
+  </head>
+  <body>
+      <div class="page">
+    <h1>Magazine Title</h1>
+    <p>
+      This is a sample magazine-style page. You can place your text, images,
+      and other elements here. The white box in the middle represents an A4
+      magazine page, and the gray background is the workspace around it.
+    </p>
+    <p>
+      Add more content, headings, or even columns to make it look like a real
+      magazine layout.
+    </p>
+  </div>
+  </body>
+</html>
