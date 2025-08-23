@@ -1,10 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
+<head>
+    <style>
+    
+  body {
       margin: 0;
       background-color: #ccc;
       display: flex;
@@ -13,16 +11,26 @@
       min-height: 100vh;
       }
 
-    .page {
+ .page {
        background-color: white;
        width: 210mm;
        height: 297mm;
        padding: 2rem;
-       
+       overflow: auto;
+    }
 
+  h1 {
+    text-align: center;
+    }
+
+  p {
+    text-align: justify;
     }
   </style>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
   <body>
       <div class="page">
     <h1>Magazine Title</h1>
